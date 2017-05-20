@@ -1,0 +1,11 @@
+21400,plankton,speed_up,50
+5000,plankton,purchase,15
+56300,plankton,speed_up,31
+65100,plankton,upgrade,50
+58700,plankton,purchase,48
+85300,plankton,purchase,25
+17000,plankton,upgrade,9
+64900,plankton,purchase,1
+36400,plankton,purchase,26
+99300,plankton,speed_up,36
+26100,plankton,purchase,7

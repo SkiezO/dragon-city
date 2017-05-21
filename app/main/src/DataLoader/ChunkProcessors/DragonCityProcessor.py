@@ -1,3 +1,4 @@
+from app.main.src.DataLoader import ProgressReporter
 from app.main.src.DataLoader.ChunkProcessors import ChunkProcessor
 from app.main.src.DataLoader.Adapters import ReportLineToDragonCityAdapter
 from app.main.src.GameManagement.Services import UserService, ActionService, OrderService
@@ -25,7 +26,7 @@ class DragonCityProcessor(ChunkProcessor):
 
         return True
 
-    def process_chunk(self, line_iterator: iter):
-        for line in line_iterator:
+    def process_chunk(self, line_list):
+        for line in line_list:
             self.process_line(line)
 

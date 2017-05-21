@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0fe6d52-86cf-4a93-9b55-54a9facdd66b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/src/CommandLine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Adapters/MongoAdapter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Adapters/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/src/CommandLineTests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/src/GameManagement/MongoAdapterTests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/src/GameManagement/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dc.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Models/IModel.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Models/Model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/ProgressReporter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statistics.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/Adapters/ReportLineToDragonCityAdapter.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/Adapters/ReportLineToDragonCityAdapter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/Adapters/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/Adapters/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/CommandLine.py" afterPath="$PROJECT_DIR$/app/main/src/CommandLine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/ChunkProcessor.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/ChunkProcessor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Models/Action.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Models/Action.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Models/Order.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Models/Order.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Models/User.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Models/User.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Models/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/ActionRepository.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/ActionRepository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/OrderRepository.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/OrderRepository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/Repository.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/Repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/UserRepository.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/UserRepository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Services/ActionService.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Services/ActionService.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Services/OrderService.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Services/OrderService.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/Services/UserService.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/Services/UserService.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/GameManagement/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/GameManagement/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/src/DataLoader/DragonCityProcessorTests.py" afterPath="$PROJECT_DIR$/app/tests/src/DataLoader/DragonCityProcessorTests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/src/DataLoader/FileTests.py" afterPath="$PROJECT_DIR$/app/tests/src/DataLoader/FileTests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/src/DataLoader/ReportLineToDragonCityAdapterTests.py" afterPath="$PROJECT_DIR$/app/tests/src/DataLoader/ReportLineToDragonCityAdapterTests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/File.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/File.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/src/DataLoader/__init__.py" afterPath="$PROJECT_DIR$/app/main/src/DataLoader/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,20 +32,44 @@
     <SUITE FILE_PATH="coverage/DragonCity$Unittests_for_ReportLineToDragonCityAdapterTests_ReportLineToDragonCityAdapterTests_test_adapter.coverage" NAME="Unittests for ReportLineToDragonCityAdapterTests.ReportLineToDragonCityAdapterTests.test_adapter Coverage Results" MODIFIED="1495320725114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/src/DataLoader" />
     <SUITE FILE_PATH="coverage/DragonCity$Unittests_in_FileReaderTests_py.coverage" NAME="Unittests in FileReaderTests.py Coverage Results" MODIFIED="1495294009304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/src/DataLoader" />
     <SUITE FILE_PATH="coverage/DragonCity$DragonCityProcessor.coverage" NAME="DragonCityProcessor Coverage Results" MODIFIED="1495320243693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors" />
-    <SUITE FILE_PATH="coverage/DragonCity$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1495327044143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/DragonCity$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1495365803011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/DragonCity$Unittests_for_FileReaderTests_FileReaderTests_testReadFile.coverage" NAME="Unittests for FileReaderTests.FileReaderTests.testReadFile Coverage Results" MODIFIED="1495296267825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/src/DataLoader" />
     <SUITE FILE_PATH="coverage/DragonCity$Unittests_for_DragonCityProcessorTests_DragonCityProcessorTests_test_process_line.coverage" NAME="Unittests for DragonCityProcessorTests.DragonCityProcessorTests.test_process_line Coverage Results" MODIFIED="1495325297698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/src/DataLoader" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DragonCityProcessor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DragonCityProcessor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="234">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgressReporter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ProgressReporter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/File.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +78,8 @@
       <file leaf-file-name="ChunkProcessor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/ChunkProcessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="-256">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -85,33 +87,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/File.py">
+      <file leaf-file-name="statistics.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statistics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileTests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/src/DataLoader/FileTests.py">
+      <file leaf-file-name="LinePrinterProcessor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
+        <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -120,8 +120,8 @@
       <file leaf-file-name="CommandLine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/src/CommandLine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -129,43 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_actions.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/resources/game_actions.csv">
+      <file leaf-file-name="core.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/fire/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="15914" column="17" lean-forward="false" selection-start-line="15914" selection-start-column="17" selection-end-line="15914" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dc.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/dc.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DragonCityProcessorTests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/src/DataLoader/DragonCityProcessorTests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/src/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,9 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/tests/python/DataLoader/FileReaderTests.py" />
-        <option value="$PROJECT_DIR$/app/tests/resources/test_chunked_file.txt" />
-        <option value="$PROJECT_DIR$/app/main/src/DataLoader/LineProcessor.py" />
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessor/LinePrinter.py" />
         <option value="$PROJECT_DIR$/app/tests/src/DataLoader/FileReaderTests.py" />
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinter.py" />
@@ -207,12 +172,9 @@
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessor/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessor/DragonCityProcessor.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Models/IModel.py" />
-        <option value="$PROJECT_DIR$/app/main/src/DataLoader/File.py" />
-        <option value="$PROJECT_DIR$/app/main/src/DataLoader/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/DataLoader/Adapters/__init__.py" />
-        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/UserRepository.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Adapters/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Repositories/ActionRepository.py" />
@@ -235,7 +197,6 @@
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Models/Order.py" />
         <option value="$PROJECT_DIR$/app/main/src/GameManagement/Models/__init__.py" />
         <option value="$PROJECT_DIR$/app/tests/src/DataLoader/DragonCityProcessorTests.py" />
-        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py" />
         <option value="$PROJECT_DIR$/app/tests/src/DataLoader/FileTests.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/main/src/CommandLine/__init__.py" />
@@ -243,7 +204,14 @@
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/main/src/__init__.py" />
         <option value="$PROJECT_DIR$/bin/dc.bat" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/__init__.py" />
+        <option value="$PROJECT_DIR$/bin/statistics.txt" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/ChunkProcessor.py" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ProgressReporter.py" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py" />
         <option value="$PROJECT_DIR$/app/main/src/CommandLine.py" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py" />
+        <option value="$PROJECT_DIR$/app/main/src/DataLoader/File.py" />
       </list>
     </option>
   </component>
@@ -376,32 +344,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GameManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonCity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonCity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="DataLoader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,36 +396,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataLoader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonCity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonCity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -500,19 +412,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projetos\DragonCity\app\tests\src\GameManagement" />
-      <recent name="C:\projetos\DragonCity\app\main\src\DataLoader\ChunkProcessors" />
-      <recent name="C:\projetos\DragonCity\src\tests\python" />
-      <recent name="C:\projetos\DragonCity\src\main\resources" />
-      <recent name="C:\projetos\DragonCity\src\main\python" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projetos\DragonCity\app\main\src\CommandLone" />
       <recent name="C:\projetos\DragonCity\app\main\src\GameManagement\Adapters" />
       <recent name="C:\projetos\DragonCity\app\main\src\DataLoader\ChunkProcessors" />
       <recent name="C:\projetos\DragonCity\app\main\src\GameManagement\Repositories" />
       <recent name="C:\projetos\DragonCity\app\main\src\GameManagement\Models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projetos\DragonCity" />
+      <recent name="C:\projetos\DragonCity\app\main\src" />
+      <recent name="C:\projetos\DragonCity\app\tests\src\GameManagement" />
+      <recent name="C:\projetos\DragonCity\app\main\src\DataLoader\ChunkProcessors" />
+      <recent name="C:\projetos\DragonCity\src\tests\python" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -773,7 +685,7 @@
       <module name="DragonCity" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main/src/CommandLine.py" />
-      <option name="PARAMETERS" value="teste" />
+      <option name="PARAMETERS" value="process-report $PROJECT_DIR$/app/main/resources/game_actions.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
@@ -848,24 +760,24 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2760736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45252225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2760736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4866469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48813057" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -888,11 +800,6 @@
           <line>8</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/main/src/CommandLine.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -901,7 +808,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="89" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -910,42 +817,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/tests/src/DataLoader/ChunkProcessorTests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/resources/test_chunked_file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/Adapters/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -953,18 +824,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,7 +941,7 @@
         <state relative-caret-position="159">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1101,7 +965,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1134,7 +998,7 @@
         <state relative-caret-position="425">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,7 +1008,7 @@
         <state relative-caret-position="170">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1154,7 +1018,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1180,7 +1044,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1208,16 +1072,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1082,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1236,7 +1092,7 @@
         <state relative-caret-position="374">
           <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1281,42 +1137,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/src/CommandLine.py">
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/fire/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="107">
+          <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/File.py">
+    <entry file="file://$PROJECT_DIR$/bin/statistics.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="601" column="0" lean-forward="false" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/ChunkProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="-256">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ProgressReporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/src/CommandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/LinePrinterProcessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/ChunkProcessors/DragonCityProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="234">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/src/DataLoader/File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>

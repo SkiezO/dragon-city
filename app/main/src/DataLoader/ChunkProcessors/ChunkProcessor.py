@@ -8,10 +8,13 @@ class ChunkProcessor(object):
     def read_lines_in_chunk(file: str, chunk_start: int, chunk_size: int) -> iter:
         with open(file) as f:
             f.seek(chunk_start)
-            return iter(f.read(chunk_size).splitlines())
+            return {
+                'chunk_size': chunk_size,
+                'lines': f.read(chunk_size).splitlines()
+            }
 
     @staticmethod
-    def chunkify(file_name: str, size: int = 1024 * 1024) -> GeneratorType:
+    def chunkify(file_name: str, size: int = 1024) -> GeneratorType:
         file_end = os.path.getsize(file_name)
         with open(file_name, 'rb') as f:
             chunk_end = f.tell()
@@ -25,4 +28,4 @@ class ChunkProcessor(object):
                     break
 
     @abstractmethod
-    def process_chunk(self, line_iterator: iter): raise NotImplementedError
+    def process_chunk(self, line_list): raise NotImplementedError

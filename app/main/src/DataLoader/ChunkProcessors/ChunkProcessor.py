@@ -29,3 +29,6 @@ class ChunkProcessor(object):
 
     @abstractmethod
     def process_chunk(self, line_list): raise NotImplementedError
+
+    @abstractmethod
+    def close(self): raise NotImplementedError

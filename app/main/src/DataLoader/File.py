@@ -1,5 +1,4 @@
 import multiprocessing
-import threading
 
 from app.main.src.DataLoader import ProgressReporter
 from app.main.src.DataLoader.ChunkProcessors import ChunkProcessor
@@ -26,3 +25,5 @@ class File:
             progress_reporter.process_chunk(job_result['chunk_size'], job_result['lines'])
 
         pool.close()
+        pool.join()
+        chunk_processor.close()

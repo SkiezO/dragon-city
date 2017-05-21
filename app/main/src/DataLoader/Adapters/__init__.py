@@ -1,1 +1,1 @@
-from .ReportLineToMongoAdapter import ReportLineToMongoAdapter
+from .ReportLineToModelsAdapter import ReportLineToModelsAdapter

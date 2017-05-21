@@ -4,16 +4,17 @@ import fire
 
 from app import set_persistence_engine
 from app.main.src.DataLoader import File, ProgressReporter
-from app.main.src.DataLoader.ChunkProcessors import MongoProcessor
+from app.main.src.DataLoader.ChunkProcessors import MongoProcessor, CSVProcessor
 
 
 class ProcessorEnum(enum.Enum):
     """The Mongo Processor"""
-    mongo = {'engine': 'Mongo', 'processor': MongoProcessor }
+    mongo = {'engine': 'Mongo', 'processor': MongoProcessor}
+    csv = {'engine': 'Mongo', 'processor': CSVProcessor}
 
 
 class CommandLine(object):
-    def process_report(self, report_location, processor = 'mongo'):
+    def process_report(self, report_location, processor = 'csv'):
         """
         You can select the processot you want. 
         The default value is Mongo

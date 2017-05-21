@@ -1,4 +1,4 @@
 from .Model import Model
 from .User import User
-from .Action import Action
-from .Order import Order
+from .GameAction import GameAction
+from .Offer import Offer

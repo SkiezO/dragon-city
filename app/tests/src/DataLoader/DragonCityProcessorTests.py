@@ -1,13 +1,13 @@
 import unittest
 
-from app.main.src.DataLoader.ChunkProcessors import DragonCityProcessor
+from app.main.src.DataLoader.ChunkProcessors import MongoProcessor
 from app.main.src.GameManagement import Repository
 from app.main.src.GameManagement.Models import Model
 from app.main.src.GameManagement.Services import UserService, ActionService, OrderService
 
 
 class DragonCityProcessorTests(unittest.TestCase):
-    dragon_city_processor = DragonCityProcessor()
+    dragon_city_processor = MongoProcessor()
 
     def test_process_line(self):
         repository = Repository(Model)

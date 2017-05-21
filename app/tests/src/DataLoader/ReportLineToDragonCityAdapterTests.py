@@ -1,11 +1,11 @@
 import unittest
 
-from app.main.src.DataLoader.Adapters import ReportLineToDragonCityAdapter
+from app.main.src.DataLoader.Adapters import ReportLineToMongoAdapter
 
 
 class ReportLineToDragonCityAdapterTests(unittest.TestCase):
     def test_adapter(self):
-        result = ReportLineToDragonCityAdapter("21400,plankton,speed_up,50".split(','))
+        result = ReportLineToMongoAdapter("21400,plankton,speed_up,50".split(','))
         self.assertEquals('21400', result.user.get_id())
         self.assertEquals('plankton', result.user.classification)
         self.assertEquals(result.user, result.action.user)

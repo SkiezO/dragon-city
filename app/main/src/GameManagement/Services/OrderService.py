@@ -1,11 +1,11 @@
-from app.main.src.GameManagement.Models import Order
+from app.main.src.GameManagement.Models import Offer
 from app.main.src.GameManagement.Repositories import OrderRepository
 
 
 class OrderService:
     order_repository: OrderRepository = OrderRepository()
 
-    def insert(self, action: Order):
+    def insert(self, action: Offer):
         return self.order_repository.insert(action)
 
     def get_by_user_id(self, user_id):

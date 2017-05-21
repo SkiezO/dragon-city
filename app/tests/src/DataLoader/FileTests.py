@@ -2,7 +2,7 @@ import sys
 import unittest
 
 from app import APP_ROOT_PATH, OS_SEPARATOR
-from app.main.src.DataLoader.ChunkProcessors import LinePrinterProcessor, DragonCityProcessor
+from app.main.src.DataLoader.ChunkProcessors import LinePrinterProcessor, MongoProcessor
 from app.main.src.DataLoader.File import File
 
 
@@ -29,7 +29,7 @@ class FileTests(unittest.TestCase):
         ])
 
     def test_read_dragon_city_processor(self):
-        processor = DragonCityProcessor()
+        processor = MongoProcessor()
         self.file_reader.read(self.test_chunked_file, processor)
 
 

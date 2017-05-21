@@ -1,1 +1,1 @@
-from .ReportLineToDragonCityAdapter import ReportLineToDragonCityAdapter
+from .ReportLineToMongoAdapter import ReportLineToMongoAdapter

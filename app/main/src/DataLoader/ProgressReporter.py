@@ -19,7 +19,7 @@ class ProgressReporter:
     def increase_file_size(self, chunk_size):
         self.file_size += chunk_size
 
-    def process_chunk(self, progress_size: int, progress_lines: iter):
+    def process_chunk(self, progress_size: int, progress_lines: list):
         lock = threading.Lock()
         lock.acquire()
         try:

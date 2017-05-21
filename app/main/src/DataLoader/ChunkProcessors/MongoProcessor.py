@@ -1,13 +1,13 @@
 from app.main.src.DataLoader.Adapters import ReportLineToMongoAdapter
 from app.main.src.DataLoader.ChunkProcessors import ChunkProcessor
-from app.main.src.GameManagement.Services import UserService, ActionService, OrderService
+from app.main.src.GameManagement.Services import UserService, GameActionService, OfferService
 
 
 class MongoProcessor(ChunkProcessor):
     def __init__(self):
         self.user_service: UserService = UserService()
-        self.action_service: ActionService = ActionService()
-        self.order_service: OrderService = OrderService()
+        self.action_service: GameActionService = GameActionService()
+        self.order_service: OfferService = OfferService()
 
     def process_line(self, line):
         adapter_result = ReportLineToMongoAdapter(line.split(','))

@@ -1,4 +1,4 @@
-from typing import Type, ClassVar
+from typing import Type
 
 from app.main.src.GameManagement import Model
 from app.main.src.GameManagement.Repositories import Repository

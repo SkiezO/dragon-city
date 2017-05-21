@@ -3,7 +3,7 @@ import unittest
 from app.main.src.DataLoader.ChunkProcessors import MongoProcessor
 from app.main.src.GameManagement import Repository
 from app.main.src.GameManagement.Models import Model
-from app.main.src.GameManagement.Services import UserService, ActionService, OrderService
+from app.main.src.GameManagement.Services import UserService, GameActionService, OfferService
 
 
 class DragonCityProcessorTests(unittest.TestCase):
@@ -17,11 +17,11 @@ class DragonCityProcessorTests(unittest.TestCase):
         self.dragon_city_processor.process_line("21400,plankton,speed_up,50")
         user_service = UserService()
         self.assertEquals('21400', user_service.get_by_id('21400')[0].id)
-        action_service = ActionService()
+        action_service = GameActionService()
         action = action_service.get_by_user_id('21400')[0]
         self.assertEquals('21400', action.user.id)
         self.assertEquals('speed_up', action.name)
-        order_service = OrderService()
+        order_service = OfferService()
         order = order_service.get_by_user_id('21400')[0]
         self.assertEquals('21400', order.user.id)
         self.assertEquals(action.id, order.action.id)

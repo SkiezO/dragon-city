@@ -1,36 +1,26 @@
-from pymongo import MongoClient
-from pymongo.database import Database
-
+from app import PERSISTENCE_ENGINE
 from app.main.src.GameManagement import Model
-from app.main.src.GameManagement.Adapters import MongoAdapter
+from app.main.src.GameManagement.Repositories.PersistenceOperations import PersistenceOperations
 
 
-class Repository:
-    def __init__(self, model):
-        self.conn = MongoClient('mongodb://localhost:27017/')
-        self.session = self.conn['dragonCity']
-        self.model = model
-        self.collection = self.model.__name__.lower()
-
-    def __get_collection(self) -> Database:
-        return self.session[self.collection]
-
-    def insert(self, model: Model):
-        return self.__get_collection().insert(MongoAdapter.model_to_mongo(model))
-
-    def update(self, model: Model):
-        return self.__get_collection().update({'_id': model.get_id()}, model.serialize())
-
-    def get(self, model: Model):
-        return MongoAdapter.mongo_to_model(self.__get_collection().find({'_id': model.get_id()})[0], self.model)
+class Repository(PersistenceOperations):
+    def __init__(self, model: Model):
+        self.engine = getattr(__import__('app').main.src.GameManagement.Repositories.Engines, PERSISTENCE_ENGINE)(model)
 
     def __getattr__(self, item):
-        field = item.replace('get_by_', '')
-        field = '_id' if field == 'id' else field
-        return lambda value: [MongoAdapter.mongo_to_model(result, self.model) for result in self.__get_collection().find({field: value})]
+        return self.engine.__getattr__(item)
+
+    def insert(self, model: Model):
+        return self.engine.insert(model)
+
+    def update(self, model: Model):
+        return self.engine.insert(model)
 
     def insert_or_update(self, model: Model):
-        return self.__get_collection().update({'_id': model.get_id()}, MongoAdapter.model_to_mongo(model), upsert=True)
+        return self.engine.insert_or_update(model)
+
+    def get(self, model: Model):
+        return self.engine.get(model)
 
     def get_all(self) -> list:
-        return self.__get_collection().find()
+        return self.engine.get_all()

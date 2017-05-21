@@ -14,6 +14,8 @@ class ProcessorEnum(enum.Enum):
 
 
 class CommandLine(object):
+    """Dragon City Report Processor"""
+
     def process_report(self, report_location, processor = 'csv'):
         """
         You can select the processot you want. 
@@ -26,5 +28,8 @@ class CommandLine(object):
         File.read(report_location, ProcessorEnum[processor].value['processor'](), ProgressReporter())
         return "Report processed successfully"
 
-if __name__ == '__main__':
+def main():
     fire.Fire(CommandLine())
+
+if __name__ == '__main__':
+    main()

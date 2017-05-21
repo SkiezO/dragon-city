@@ -1,3 +1,3 @@
 @echo off
 
-python dc %*
+python %~dp0\dc %*

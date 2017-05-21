@@ -8,3 +8,9 @@ class UserService:
     def get(self, user: User):
         return self.user_repository.get(user)
 
+    def insert_or_update(self, user: User):
+        return self.user_repository.insert_or_update(user)
+
+    def get_by_id(self, id_value):
+        return self.user_repository.get_by_id(id_value)
+

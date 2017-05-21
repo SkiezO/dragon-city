@@ -10,18 +10,18 @@ class DragonCityProcessor(ChunkProcessor):
 
     def process_line(self, line):
         adapter_result = ReportLineToDragonCityAdapter(line.split(','))
-        user = self.user_service.get(adapter_result.user)
-        if user:
-            raise "Cant find user"
+        update_result = self.user_service.insert_or_update(adapter_result.user)
+        if update_result['n'] != 1:
+            raise "Cant isert update user"
             return
 
-        adapter_result.user = user
-        action = self.action_service.insert(adapter_result.action)
+        adapter_result.action.id = self.action_service.insert(adapter_result.action)
 
-        if not action:
+        if not adapter_result.action.id:
             raise "Can't process action"
+            return
 
-        order = self.order_service.insert(adapter_result.order)
+        self.order_service.insert(adapter_result.order)
 
         return True
 

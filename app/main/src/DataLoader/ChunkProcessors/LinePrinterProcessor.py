@@ -1,4 +1,4 @@
-from app.main.src.DataLoader import ChunkProcessor
+from app.main.src.DataLoader.ChunkProcessors import ChunkProcessor
 
 
 class LinePrinterProcessor(ChunkProcessor):

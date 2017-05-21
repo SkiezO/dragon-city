@@ -1,3 +1,3 @@
+from .ChunkProcessor import ChunkProcessor
 from .DragonCityProcessor import DragonCityProcessor
 from .LinePrinterProcessor import LinePrinterProcessor
-from .ChunkProcessor import ChunkProcessor

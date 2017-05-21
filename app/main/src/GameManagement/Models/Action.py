@@ -1,8 +1,7 @@
-from app.main.src.GameManagement.Models import User
-from app.main.src.GameManagement.Models.IModel import IModel
+from app.main.src.GameManagement.Models import Model, User
 
 
-class Action(IModel):
-    id: int
+class Action(Model):
+    id: str
     user: User
     name: str

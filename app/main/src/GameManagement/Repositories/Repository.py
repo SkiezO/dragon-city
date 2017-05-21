@@ -1,29 +1,36 @@
 from pymongo import MongoClient
 from pymongo.database import Database
 
-from app.main.src.GameManagement.Models.IModel import IModel
+from app.main.src.GameManagement import Model
+from app.main.src.GameManagement.Adapters import MongoAdapter
 
 
 class Repository:
-    def __init__(self):
+    def __init__(self, model):
         self.conn = MongoClient('mongodb://localhost:27017/')
         self.session = self.conn['dragonCity']
-        self.collection = self.__class__.__name__.replace('Repository', '').lower()
+        self.model = model
+        self.collection = self.model.__name__.lower()
 
     def __get_collection(self) -> Database:
         return self.session[self.collection]
 
-    def insert(self, model: IModel):
-        self.__get_collection.insert(model)
+    def insert(self, model: Model):
+        return self.__get_collection().insert(MongoAdapter.model_to_mongo(model))
 
-    def update(self, model: IModel):
-        return self.__get_collection().update({'id': model.get_id()}, model)
+    def update(self, model: Model):
+        return self.__get_collection().update({'_id': model.get_id()}, model.serialize())
 
-    def get(self, model: IModel):
-        return self.__get_collection().find({'id': model.get_id()})
+    def get(self, model: Model):
+        return MongoAdapter.mongo_to_model(self.__get_collection().find({'_id': model.get_id()})[0], self.model)
 
-    def insert_or_update(self, model: IModel):
-        return self.__get_collection().update({'id': model.get_id()}, model, upsert=True)
+    def __getattr__(self, item):
+        field = item.replace('get_by_', '')
+        field = '_id' if field == 'id' else field
+        return lambda value: [MongoAdapter.mongo_to_model(result, self.model) for result in self.__get_collection().find({field: value})]
+
+    def insert_or_update(self, model: Model):
+        return self.__get_collection().update({'_id': model.get_id()}, MongoAdapter.model_to_mongo(model), upsert=True)
 
     def get_all(self) -> list:
         return self.__get_collection().find()

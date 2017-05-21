@@ -1,6 +1,6 @@
-from app.main.src.GameManagement.Models import IModel
+from app.main.src.GameManagement.Models import Model
 
 
-class User(IModel):
-    id: int
+class User(Model):
+    id: str
     classification: str
